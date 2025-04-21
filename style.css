@@ -1,5 +1,10 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 body, p, li {
-  background-color: white
+  background-color: white;
   color: rgb(60, 56, 64);
   font-family: 'Roboto', sans-serif;  font-size: 16px;
   line-height: normal;
@@ -66,4 +71,21 @@ a:hover {
   .container {
     width: 300px;
   }
+}
+
+.btn-blue {
+  color: white;
+}
+
+.button {
+  background-color: #6B72E1;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin-right: 115px;
+  margin-left: 115px;
+
+}
+
+#introduction {
+  margin-bottom: 40px;
 }
